@@ -2,7 +2,7 @@
 
 這是一個簡單的網頁應用，使用者可以自訂寬度、高度、背景顏色、文字顏色及顯示文字，生成一張圖片，並能下載圖片或複製圖片鏈接。
 
-[![示範影片]([https://img.youtube.com/vi/sF7oJfnBGxM/0.jpg)](https://youtu.be/watch?v=sF7oJfnBGxM)
+[示範影片](https://youtu.be/watch?v=sF7oJfnBGxM)
 
 
 ## 安裝與使用（Installation & Usage）
