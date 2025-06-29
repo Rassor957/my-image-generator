@@ -2,6 +2,9 @@
 
 這是一個簡單的網頁應用，使用者可以自訂寬度、高度、背景顏色、文字顏色及顯示文字，生成一張圖片，並能下載圖片或複製圖片鏈接。
 
+[![示範影片]([https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/sF7oJfnBGxM))
+
+
 ## 安裝與使用（Installation & Usage）
 
 1. 克隆專案：
