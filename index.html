@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>圖片生成器</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>圖片生成器</title>
+  <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <h1>圖片生成器</h1>
-        <form id="imageForm">
-            <label for="width">寬度：</label>
-            <input type="number" id="width" name="width" required>
-            <br>
-            <label for="height">高度：</label>
-            <input type="number" id="height" name="height" required>
-            <br>
-            <label for="bgColor">背景顏色（選填）：</label>
-            <input type="color" id="bgColor" name="bgColor">
-            <br>
-            <label for="textColor">文字顏色（選填）：</label>
-            <input type="color" id="textColor" name="textColor">
-            <br>
-            <label for="text">文字內容（選填）：</label>
-            <input type="text" id="text" name="text" placeholder="留空則無文字">
-            <br>
-            <button type="button" onclick="generateImage()">生成圖片</button>
-        </form>
-        <br>
-        <div id="imageContainer" class="preview-container"></div>
+<body class="bg-dark text-white">
+  <div class="container my-5">
+    <h1 class="mb-4 text-center">圖片生成器</h1>
+    <div class="form-wrapper mx-auto">
+    <form id="imageForm">
+      <div class="mb-3">
+        <label for="width" class="form-label">寬度：</label>
+        <input type="number" class="form-control" id="width" name="width" required>
+      </div>
+      <div class="mb-3">
+        <label for="height" class="form-label">高度（選填，留空則同寬度）：</label>
+        <input type="number" class="form-control" id="height" name="height">
+      </div>
+      <div class="mb-3">
+        <label for="bgColor" class="form-label">背景顏色（選填）：</label>
+        <input type="color" class="form-control form-control-color" id="bgColor" name="bgColor">
+      </div>
+      <div class="mb-3">
+        <label for="textColor" class="form-label">文字顏色（選填）：</label>
+        <input type="color" class="form-control form-control-color" id="textColor" name="textColor">
+      </div>
+      <div class="mb-3">
+        <label for="text" class="form-label">文字內容（選填）：</label>
+        <input type="text" class="form-control" id="text" name="text" placeholder="留空則無文字">
+      </div>
+      <div class="text-center mt-3">
+      <button type="button" id="generateBtn" class="btn btn-primary" onclick="generateImage()"  disabled>
+        生成圖片/鏈接
+      </button>
+      </div>
+    </form>
+
+    <!-- 預覽顯示 -->
+    <div id="imageContainer" class="mt-4"></div>
     </div>
-    <script src="script.js"></script>
+  </div>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>
