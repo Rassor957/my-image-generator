@@ -2,6 +2,10 @@
 
 這是一個簡單的網頁應用，使用者可以自訂寬度、高度、背景顏色、文字顏色及顯示文字，生成一張圖片，並能下載圖片或複製圖片鏈接。
 
+![示範圖片1](https://res.cloudinary.com/db4834tsd/image/upload/v1751257541/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2025-06-30_121816_q0jtpn.jpg)
+
+![示範圖片2](https://res.cloudinary.com/db4834tsd/image/upload/v1751257541/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2025-06-30_122523_dzntcs.jpg)
+
 [示範影片](https://youtu.be/watch?v=sF7oJfnBGxM)
 
 
